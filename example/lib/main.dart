@@ -60,7 +60,7 @@ class _MyAppState extends State<MyApp> {
     );
   }
 
-  /// 向上弹出的按钮组件
+  /// 垂直向上弹出菜单
   buildRoteFloatingButton() {
     return RoteFloatingButton(
       // 子菜单按钮选项
@@ -150,8 +150,8 @@ class _MyAppState extends State<MyApp> {
     );
   }
 
+  /// 切换样式的动画按钮
   Widget buildProgressButton() {
-    // 切换样式的动画按钮
     return AnimatedButton(
       width: 120.0,
       height: 40,
